@@ -1,5 +1,6 @@
+import { UserProfile } from '@clerk/nextjs';
 const ProilePage = () => {
-  return <div>ProilePage</div>;
+  return <UserProfile />;
 };
 
 export default ProilePage;
